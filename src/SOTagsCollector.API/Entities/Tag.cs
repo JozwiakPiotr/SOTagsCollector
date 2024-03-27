@@ -1,4 +1,4 @@
-﻿namespace SOTagsCollector.API;
+﻿namespace SOTagsCollector.API.Entities;
 
 public class Tag
 {

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SOTagsCollector.API.Entities;
 
-namespace SOTagsCollector.API;
+namespace SOTagsCollector.API.Persistance;
 
 public class TagsDb : DbContext
 {
