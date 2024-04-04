@@ -2,15 +2,13 @@
 
 ### TODO:
 
-- [ ] końcówki
-- [ ] pobieranie i przeliczanie tagów
-- [ ] messaging
-- [ ] polly
-- [ ] openapi
-- [ ] sekrety
-- [ ] serilog, logstash
-- [ ] baza danych
-- [ ] docker
-- [ ] testy
-- [ ] testcontainers
-- [ ] testy UpdateTagsHandler
+- [x] końcówki
+- [x] pobieranie i przeliczanie tagów
+- [x] messaging
+- [x] polly
+- [x] openapi
+- [x] serilog
+- [x] baza danych
+- [x] docker
+- [x] testy
+- [x] testcontainers
