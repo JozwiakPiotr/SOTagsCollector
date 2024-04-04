@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOTagsCollector.Unit", "tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOTagsCollector.Integration", "tests\SOTagsCollector.Integration\SOTagsCollector.Integration.csproj", "{5145D93B-71C1-4806-9946-BE10E1E23367}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOTagsCollector.Tools", "tests\SOTagsCollector.Tools\SOTagsCollector.Tools.csproj", "{3AD1AC07-FC3C-4B62-94FB-A92CE38953A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{5145D93B-71C1-4806-9946-BE10E1E23367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5145D93B-71C1-4806-9946-BE10E1E23367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5145D93B-71C1-4806-9946-BE10E1E23367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD1AC07-FC3C-4B62-94FB-A92CE38953A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD1AC07-FC3C-4B62-94FB-A92CE38953A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD1AC07-FC3C-4B62-94FB-A92CE38953A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD1AC07-FC3C-4B62-94FB-A92CE38953A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 		{41960117-2677-4CB3-B7AD-AB98E5C7F7C7} = {991C5BAE-5C3C-422C-B4FA-F80350465083}
 		{15210FC6-9DBE-4BA6-9CD5-A544C007C46E} = {535EFC5F-8713-443F-A310-4E29EA4C33CF}
 		{5145D93B-71C1-4806-9946-BE10E1E23367} = {535EFC5F-8713-443F-A310-4E29EA4C33CF}
+		{3AD1AC07-FC3C-4B62-94FB-A92CE38953A6} = {535EFC5F-8713-443F-A310-4E29EA4C33CF}
 	EndGlobalSection
 EndGlobal

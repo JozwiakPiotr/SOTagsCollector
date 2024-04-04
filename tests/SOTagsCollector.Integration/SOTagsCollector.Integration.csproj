@@ -10,8 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.18.1" />
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.3" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Respawn" Version="6.2.1" />
+    <PackageReference Include="Testcontainers.MsSql" Version="3.8.0" />
+    <PackageReference Include="Testcontainers.RabbitMq" Version="3.8.0" />
+    <PackageReference Include="WireMock.Net" Version="1.5.51" />
     <PackageReference Include="xunit" Version="2.5.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
   </ItemGroup>
@@ -22,6 +29,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\SOTagsCollector.API\SOTagsCollector.API.csproj" />
+    <ProjectReference Include="..\SOTagsCollector.Tools\SOTagsCollector.Tools.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TestData\StackExchangeApi\top20by_popular_desc_response.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

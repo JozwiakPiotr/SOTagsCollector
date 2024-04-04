@@ -13,3 +13,4 @@
 - [ ] docker
 - [ ] testy
 - [ ] testcontainers
+- [ ] testy UpdateTagsHandler

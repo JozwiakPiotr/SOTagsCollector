@@ -1,7 +1,7 @@
 ﻿using AutoFixture;
 using AutoFixture.AutoMoq;
 
-namespace SOTagsCollector.Unit;
+namespace SOTagsCollector.Tools;
 
 public static class FixtureFactory
 {

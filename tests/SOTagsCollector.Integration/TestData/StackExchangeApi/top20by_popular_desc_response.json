@@ -1,0 +1,243 @@
+﻿{
+  "items": [
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2529142,
+      "name": "javascript"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2192727,
+      "name": "python"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1917446,
+      "name": "java"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1615225,
+      "name": "c#"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "php"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective where developers working with PHP can learn and connect about the open source scripting language.",
+          "link": "/collectives/php",
+          "name": "PHP",
+          "slug": "php"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1464529,
+      "name": "php"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "ios",
+            "android"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective for developers who want to share their knowledge and learn more about mobile development practices and platforms",
+          "link": "/collectives/mobile-dev",
+          "name": "Mobile Development",
+          "slug": "mobile-dev"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1417310,
+      "name": "android"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1187438,
+      "name": "html"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1034812,
+      "name": "jquery"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 806811,
+      "name": "c++"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 804305,
+      "name": "css"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "ios",
+            "android"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective for developers who want to share their knowledge and learn more about mobile development practices and platforms",
+          "link": "/collectives/mobile-dev",
+          "name": "Mobile Development",
+          "slug": "mobile-dev"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 687293,
+      "name": "ios"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 670830,
+      "name": "sql"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 662037,
+      "name": "mysql"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "shiny",
+            "plyr",
+            "tidyr",
+            "tibble",
+            "readr",
+            "knitr",
+            "stringr",
+            "zoo",
+            "quantmod",
+            "dplyr",
+            "r-raster",
+            "r-caret",
+            "forcats",
+            "r",
+            "tidyverse",
+            "purrr",
+            "data.table",
+            "shinydashboard",
+            "lubridate",
+            "shinyapps",
+            "rlang",
+            "ggplot2",
+            "shiny-server",
+            "dtplyr",
+            "rstudio",
+            "rvest",
+            "r-package"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective where data scientists and AI researchers gather to find, share, and learn about R and other subtags like knitr and dplyr.",
+          "link": "/collectives/r-language",
+          "name": "R Language",
+          "slug": "r-language"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 505720,
+      "name": "r"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 476844,
+      "name": "reactjs"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 472081,
+      "name": "node.js"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 416733,
+      "name": "arrays"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 404012,
+      "name": "c"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 374628,
+      "name": "asp.net"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 360360,
+      "name": "json"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 10000,
+  "quota_remaining": 9987
+}

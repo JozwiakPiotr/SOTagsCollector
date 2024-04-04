@@ -1,23 +1,35 @@
-﻿using SOTagsCollector.API.Persistance;
+﻿using MassTransit;
+using SOTagsCollector.API.Clients;
+using SOTagsCollector.API.Repositories;
 using SOTagsCollector.API.Services;
 
 namespace SOTagsCollector.API.Handlers;
 
-public class UpdateTagsHandler
+public class UpdateTagsHandler : IConsumer<UpdateTagsCommand>
 {
     private readonly IStackExchangeClient _stackExchangeClient;
-    private const int BatchSize = 100;
+    private readonly ITagRepository _tagRepository;
+
     public UpdateTagsHandler(
         IStackExchangeClient stackExchangeClient,
-        TagsDb tagsDb)
+        ITagRepository tagRepository)
     {
         _stackExchangeClient = stackExchangeClient;
+        _tagRepository = tagRepository;
     }
 
-    public Task HandleAsync(UpdateTagsCommand _)
+    public async Task Consume(ConsumeContext<UpdateTagsCommand> context)
     {
-        throw new NotImplementedException();
+        var request = CreateGetTagsRequest(context.Message);
+        var tags = await _stackExchangeClient.GetTagsAsync(request);
+        await _tagRepository.MergeAsync(tags);
+    }
+
+    private GetTagsRequest CreateGetTagsRequest(UpdateTagsCommand cmd)
+    {
+        return new GetTagsRequest(
+            cmd.Page, cmd.Count, "desc", "popular", "stackoverflow");
     }
 }
 
-public record UpdateTagsCommand();
+public record UpdateTagsCommand(int Page, int Count);

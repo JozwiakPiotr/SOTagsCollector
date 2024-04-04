@@ -1,0 +1,40 @@
+networks:
+  default:
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - default
+
+  tagsdb:
+    container_name: tagsdb
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - 8002:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password1!
+    networks:
+      - default
+
+  sotagscollector:
+    container_name: app
+    image: sotagscollector
+    build:
+      context: .
+      dockerfile: ./src/SOTagsCollector.API/Dockerfile
+    ports:
+      - "5001:8080"
+    environment:
+      - "ASPNETCORE_ConnectionStrings__tagsdb=Server=tagsdb,1433;Database=tags;User Id=sa;Password=Password1!;TrustServerCertificate=True"
+      - "ASPNETCORE_ConnectionStrings__rabbitmq=amqp://guest:guest@rabbitmq/"
+    depends_on: 
+      - rabbitmq
+      - tagsdb
+    networks:
+      - default
